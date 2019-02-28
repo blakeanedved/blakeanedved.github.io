@@ -33,6 +33,10 @@
 	right: 20px;
 }
 
+.icon-wrapper {
+	font-size: 30px;
+}
+
 @media screen and (max-width: 991px){
 	.one { display: none; }
 	.two { display: none; }
