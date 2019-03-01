@@ -1,8 +1,13 @@
-.image-holder {
+.big-recamen {
 	width: 100vw;
 	margin: 0;
 	padding: 0;
 	height: auto;
+}
+
+.small-recamen {
+	margin: 0;
+	padding: 0;
 }
 
 .lang {
@@ -63,4 +68,14 @@
 	.two { display: none; }
 	.three { display: none; }
 	.four { display: none; }
+}
+
+@media screen and (max-width: 857px ){
+	.big-recamen { display: none; }
+	.small-recamen { display: block; }
+}
+
+@media screen and (min-width: 858px ){
+	.big-recamen { display: block; }
+	.small-recamen { display: none; }
 }

@@ -49,3 +49,8 @@ $.getJSON('https://api.github.com/users/blakeanedved/repos',function(data){
 		}
 	}
 })
+$(window).resize(function(){
+	if ($(window).width() <= 1300){
+		$('.small-recamen').css('margin-left',($(window).width() - $('.small-recamen').width()) / 2)
+	}
+})
